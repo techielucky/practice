@@ -434,13 +434,13 @@
         }
 
         .skill-category {
-            background: #1a1f3a;
+            background: #f9f9f9;
             padding: 2rem;
-            border-radius: 0;
-            box-shadow: 0 0 15px rgba(0, 255, 159, 0.2), inset 0 0 15px rgba(0, 255, 159, 0.05);
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
             animation: fadeInUp 0.6s ease-out backwards;
-            border: 2px solid #ff006e;
+            border: 1px solid #e0e0e0;
         }
 
         .skill-category:nth-child(1) { animation-delay: 0.1s; }
@@ -449,28 +449,24 @@
 
         .skill-category:hover {
             transform: translateY(-5px);
-            box-shadow: 0 0 30px #00ff9f, 0 0 50px #ff006e, inset 0 0 20px rgba(0, 255, 159, 0.1);
-            border-color: #00ff9f;
-            animation: cyberpulse 2s ease-in-out infinite;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
         .skill-category h3 {
-            color: #ff006e;
+            color: #0066cc;
             margin-bottom: 1.5rem;
             font-size: 1.3rem;
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            text-shadow: 0 0 10px #ff006e;
         }
 
         .skill-category h3:before {
             content: '';
             width: 4px;
             height: 20px;
-            background: linear-gradient(180deg, #ff006e, #00ff9f);
-            border-radius: 0;
-            box-shadow: 0 0 10px #ff006e;
+            background: #0066cc;
+            border-radius: 2px;
         }
 
         .skill-list {
@@ -481,14 +477,12 @@
             padding: 0.7rem 0;
             padding-left: 1.5rem;
             position: relative;
-            color: #00ff9f;
+            color: #555555;
             transition: all 0.3s;
-            text-shadow: 0 0 5px rgba(0, 255, 159, 0.5);
         }
 
         .skill-list li:hover {
-            color: #ff006e;
-            text-shadow: 0 0 10px #ff006e;
+            color: #0066cc;
             padding-left: 2rem;
         }
 
@@ -496,7 +490,7 @@
             content: "→";
             position: absolute;
             left: 0;
-            color: #ff006e;
+            color: #0066cc;
             font-weight: bold;
         }
 
