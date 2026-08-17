@@ -40,6 +40,10 @@ const SELECTORS = {
     observeElements: 'section h2, .project-card, .skill-category, .timeline-item'
 };
 
+// ==========================================
+// 2. INTERSECTION OBSERVER - SCROLL ANIMATIONS
+// ==========================================
+
 class ScrollAnimationController {
     constructor() {
         this.observerOptions = {
