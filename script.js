@@ -12,7 +12,14 @@
 // 1. CONFIGURATION & CONSTANTS
 // ==========================================
 
-
+const CONFIG = {
+    animationDuration: 600,
+    scrollThreshold: 0.1,
+    scrollDelay: 300,
+    glowDuration: 2000,
+    particleCount: 50,
+    debugMode: false
+};
 
 const COLORS = {
     neonGreen: '#00ff9f',
