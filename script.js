@@ -28,7 +28,17 @@ const COLORS = {
     lightPurple: '#8338ec'
 };
 
-
+const SELECTORS = {
+    header: 'header',
+    nav: 'nav a',
+    scrollBtn: '#scrollToTop',
+    contactForm: '#contactForm',
+    sections: 'section',
+    projectCards: '.project-card',
+    skillCategories: '.skill-category',
+    timelineItems: '.timeline-item',
+    observeElements: 'section h2, .project-card, .skill-category, .timeline-item'
+};
 
 // ==========================================
 // 2. INTERSECTION OBSERVER - SCROLL ANIMATIONS
