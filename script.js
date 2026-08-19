@@ -640,13 +640,7 @@ class PortfolioApp {
             }
         });
 
-        // Prevent accidental text selection
-        document.addEventListener('selectstart', (e) => {
-            if (e.target.closest('button, .cta-button')) {
-                e.preventDefault();
-            }
-        });
-    }
+       
 
     setupAnalytics() {
         // Track page interactions
