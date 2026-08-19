@@ -698,14 +698,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.portfolioApp = app;
 });
 
-/**
- * Cleanup on page unload
- */
-window.addEventListener('beforeunload', () => {
-    if (window.portfolioApp) {
-        window.portfolioApp.destroy();
-    }
-});
+
 
 // ==========================================
 // 14. CONSOLE WELCOME MESSAGE
