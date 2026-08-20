@@ -656,9 +656,7 @@ class PortfolioApp {
             scrollDepth: 0
         };
 
-        document.addEventListener('click', () => {
-            analyticsData.interactions++;
-        });
+   
 
         window.addEventListener('scroll', () => {
             analyticsData.scrollDepth = Math.max(
