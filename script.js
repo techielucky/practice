@@ -648,7 +648,13 @@ class PortfolioApp {
         });
     }
 
-  
+    setupAnalytics() {
+        // Track page interactions
+        const analyticsData = {
+            sessionStart: new Date(),
+            interactions: 0,
+            scrollDepth: 0
+        };
 
         document.addEventListener('click', () => {
             analyticsData.interactions++;
