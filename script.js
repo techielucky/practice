@@ -660,7 +660,7 @@ class PortfolioApp {
             analyticsData.interactions++;
         });
 
-        njcnkjn
+    
 
         window.addEventListener('scroll', () => {
             analyticsData.scrollDepth = Math.max(
