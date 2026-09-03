@@ -6,6 +6,7 @@
 /**
  * Portfolio Application - Main Controller
  * Handles animations, interactions, and user engagement
+ *Handle tasks
  */
 
 // ==========================================
