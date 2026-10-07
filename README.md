@@ -66,7 +66,7 @@ This is intentional.
 
 The goal of this repository is not to maintain perfect code. The goal is to understand concepts by implementing and experimenting with them.
 
----
+-------
 
 ## Areas of Practice
 
