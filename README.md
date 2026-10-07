@@ -46,7 +46,7 @@ I use this space to:
 
 Everything in this repository should be considered practice material.
 
-The code may contain:
+The code may contain:-
 
 - Bugs
 - Incomplete implementations
